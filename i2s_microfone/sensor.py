@@ -10,6 +10,8 @@ CONF_DATA_IN_PIN = "data_in_pin"
 CONF_CALIBRATION_OFFSET = "calibration_offset"
 CONF_CALIBRATION_NUMBER = "calibration_number"
 
+CODEOWNERS = ["@DanBar1971"]
+
 i2s_microfone_ns = cg.esphome_ns.namespace("i2s_microfone")
 I2SMicrofoneSensor = i2s_microfone_ns.class_(
     "I2SMicrofoneSensor", sensor.Sensor, cg.PollingComponent
