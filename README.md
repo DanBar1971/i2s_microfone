@@ -1,2 +1,2 @@
 # i2s_microfone
-Simple Mic Sound Level dB
+Simple ESPHome Component Mic Sound Level dB
